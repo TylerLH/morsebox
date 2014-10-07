@@ -1,0 +1,26 @@
+{
+  "name": "morsebox",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserify": {
+    "transform": [
+      "coffeeify"
+    ]
+  },
+  "dependencies": {
+    "browserify": "^6.0.2",
+    "coffee-script": "^1.8.0",
+    "coffeeify": "^0.7.0",
+    "gulp": "^3.8.8",
+    "gulp-load-plugins": "^0.7.0",
+    "gulp-webserver": "^0.8.3",
+    "morse": "^0.1.0",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}
